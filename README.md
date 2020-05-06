@@ -6,7 +6,6 @@
 mvn clean package && java -jar target/waypoints-1.0-SNAPSHOT.jar
 
 ## Version used for testing Application:
-=====================================
 - Mac(10.14.5)
 - Maven - 3.6.3
 - java 11.0.6 2020-01-14 LTS
@@ -37,7 +36,7 @@ consecutive waypoints will usually be very short.  In this case the interval is
 5 seconds, so it certainly fits the expectation.  The speed is thus given by
 this graph:
 
-![waypoints plot](resources/waypoints.png)
+![waypoints plot](/src/main/resources/waypoints.png)
 
 This is equivalent to saying that the acceleration *a* is constant between two
 waypoints.  If we denote by *s*<sub>0</sub> and *t*<sub>0</sub> the speed and
